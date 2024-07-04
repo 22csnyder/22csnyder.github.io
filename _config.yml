@@ -27,10 +27,11 @@ author:
   avatar           : hs_ita2020poster_crop.jpg
   name             : "Chris Snyder MD PhD"
   # pronouns         : he/him # example: "she/her"  
-  bio              : "Clinical Pathology Resident,\nData Scientist"
+  bio              : '"Data Pathologist"' #,\nData Scientist" #TODO fix
   # location         : "St. Louis"
   location         : 
-  employer         : "Dept Pathology and Immunology Washington University School of Medicine"
+  # employer         : "Dept Pathology and Immunology Washington University School of Medicine"
+  employer         : "WashU Pathology"
   uri              : # URL
   email            : cgs2@wustl.edu
 
@@ -211,6 +212,9 @@ collections:
     output: true
     permalink: /:collection/:path/
   portfolio:
+    output: true
+    permalink: /:collection/:path/
+  projects: #added july2024
     output: true
     permalink: /:collection/:path/
   talks:
