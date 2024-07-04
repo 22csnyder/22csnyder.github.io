@@ -10,6 +10,7 @@ author_profile: false
 In this project, we explored whether an artificial neural network could learn structural causal relations, which are functions that explain observations in terms of the underlying mechanisms that generated them. We used a Generative Adversarial Network (GAN) to learn the causal structure of a simple toy dataset. The GAN was trained to generate samples from the dataset, and the discriminator was trained to predict the causal variable from the generated samples. The generator was trained to minimize the discriminator's error, and the discriminator was trained to maximize its error. The GAN was able to learn the causal structure of the dataset, and the generator was able to generate label distributions that were indistinguishable from the real data.
 
 
+
 Sometimes the structural causal variables were images themselves, whose nature and distribution, we ventured, were "caused" by the accessories (e.g.  "glasses" or "hat") adorning the faces in the dataset. We were also able to learn a label-GAN for class-conditional generative modeling, which was able to generate novel images sampled from the GAN model of the training set, conditioned on the label.[^1]
 
 The key advantage of our method is that we are able to distinguish between "conditioning" (which is a statistical relationship) and "intervening" (which only changes causal, downstream effects). This is a key distinction, often cited for understanding the limitations of machine learning models.
