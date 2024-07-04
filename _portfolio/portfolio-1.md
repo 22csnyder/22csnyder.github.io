@@ -1,6 +1,8 @@
 ---
 title: "2012--2015: Motivated Beginner"  
-excerpt: "During this of medical school and early PhD, I taught myself to be proficient python and c++ coding and contributed to several image processing projects."
+excerpt: "During this of medical school and early PhD, I taught myself to be proficient python and c++ coding and contributed to several image processing projects.
+<img src='/images/T12_relaxivity_segment.jpg'>
+Pictured above is MRI image, segmented to automatically identify pixel intensities that reflect the dependence of contrast-agent on T12 relaxation times."
 collection: portfolio
 author_profile: false #true
 ---
@@ -19,12 +21,17 @@ This project was a collaboration with the [BRAIN Initiative](https://www.brainin
 <!-- TODO replace with video -->
 
 <img src='/images/ss-1_worm-vision_gui_15s.png'>
-<!-- <video source='/images/sr_worm-vision_gui_15s.mp4'> -->
+<!-- -----------------------
+<video> <source="/images/sr_worm-vision_gui_15s.mp4" type="video/mp4">
+</video> --> #TODO fix video
 
-The way I approached the 3D segmentation was to allow the use to manipulate a smoothness penalty on the mesh that penalized higher order terms in the spherical harmonic fourier series expansion of the radius function. I paired a global map (left) view with a contrast enhanced, zoom view (middle) to give a sense of where the given neuron was within the worm globally, while using a different brightness/contrast adapted to each local view.
+The way I approached the 3D segmentation was to allow the use to manipulate a smoothness penalty on the mesh that penalized higher order terms in the fourier [spherical harmonic](https://en.wikipedia.org/wiki/Spherical_harmonics) series representation of the segmentation mesh radius function. For the GUI, I paired a global map (left) view with a contrast enhanced, zoom view (middle) to give a sense of where the given neuron was within the worm globally, while using a different brightness/contrast adapted to each local view.
 
-One problem that came up is that the spherical harmonic computation was far too slow for smooth interaction. In short, the scipy implementation was very optimized. 
+One problem that came up is that the spherical harmonic computation as implemented in the scipy special functions library was far too slow for smooth interaction. In short, I needed to write my own. 
 
+One useful tool I learned to this end was cython--As the name suggests, it is a hybrid of python and C. It allows you to write C code that is compiled into a python .so file that can be imported just like a module. In addition to the .cpp and .h files, it requires a .pyx file that explains how the C functions and data types map to python types. Another useful tool I became familiar with is "OpenMP" which is a commonly used means of multi-threading in C level code, which is notoriously difficult to debug for beginners.
+
+One lesson that was influential in my decision to code in python exclusively for data-science projects going forward is that: even if one needs high performance code, python may still be the best language for the *project*, with a few lines of lower level code compiled once, which can handle the rate-limiting steps in the computation.
 
 ```
     void return_pixel_membership(double* Radius,double* I,
@@ -70,4 +77,7 @@ One problem that came up is that the spherical harmonic computation was far too 
         }}}
     }
 ```
+
+Stylistically, the code is representative of the python code as well for this era. For loops are nested, and the code is not particularly modular. The code is not documented, and the variable names are not particularly descriptive. In short, I could write code technically impressive code, but I did not yet appreciate importance of code readability or maintainability.
+
 
