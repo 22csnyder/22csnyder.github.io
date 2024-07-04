@@ -1,11 +1,19 @@
 ---
 permalink: /
-title: "Academic Pages is a ready-to-fork GitHub Pages template for academic personal websites"
+title: "Path-Math: The Personal Academic Website of Christopher Snyder, MD. PhD."
 author_profile: true
 redirect_from: 
   - /about/
   - /about.html
 ---
+
+This is a personal academic website for Christopher Snyder, MD, PhD. I am a physician-scientist with a background in mathematics and computer science. I am currently a resident physician in the Department of Pathology at Washington University in St. Louis. 
+My research interests include the development of machine learning algorithms for the analysis of high-dimensional data in the context of hematopathology and the as well as systems optimization within the clinical laboratory.
+
+An Informatics Portfolio for 2025 Fellowship Application
+======
+This website is intended to serve as an informatics portfolio for my application to the 2025 Informatics Fellowship. I may keep it up to date with informatics project statuses in the future.
+
 
 This is the front page of a website that is powered by the [Academic Pages template](https://github.com/academicpages/academicpages.github.io) and hosted on GitHub pages. [GitHub pages](https://pages.github.com) is a free service in which websites are built and hosted from code and data stored in a GitHub repository, automatically updating when a new commit is made to the respository. This template was forked from the [Minimal Mistakes Jekyll Theme](https://mmistakes.github.io/minimal-mistakes/) created by Michael Rose, and then extended to support the kinds of content that academics have: publications, talks, teaching, a portfolio, blog posts, and a dynamically-generated CV. You can fork [this repository](https://github.com/academicpages/academicpages.github.io) right now, modify the configuration and markdown files, add your own PDFs and other content, and have your own site for free, with no ads! An older version of this template powers my own personal website at [stuartgeiger.com](http://stuartgeiger.com), which uses [this Github repository](https://github.com/staeiou/staeiou.github.io).
 
@@ -44,6 +52,8 @@ Many people use a git client to create files on their local computer and then pu
 Example: editing a markdown file for a talk
 ![Editing a markdown file for a talk](/images/editing-talk.png)
 
-For more info
+This page forked from [academicpages.github.io](https://academicpages.github.io). 
 ------
-More info about configuring Academic Pages can be found in [the guide](https://academicpages.github.io/markdown/). The [guides for the Minimal Mistakes theme](https://mmistakes.github.io/minimal-mistakes/docs/configuration/) (which this theme was forked from) might also be helpful.
+Statis site generation with jekyll and markdown is a great way to create a personal academic website. It is easy to maintain and update, and it is free to host on GitHub Pages. 
+I am hoping that I can update cv content in one place and have it automatically update on my website and cv pdf.
+<!-- The [guides for the Minimal Mistakes theme](https://mmistakes.github.io/minimal-mistakes/docs/configuration/) (which this theme was forked from) might also be helpful. -->
