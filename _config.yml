@@ -21,7 +21,8 @@ repository               : 22csnyder/22csnyder.github.io # "academicpages/academ
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "profile.png"
+  # avatar           : "profile.png"
+  avatar           : "hs_ita2020poster_crop.jpg"
   name             : "Your Sidebar Name"
   pronouns         : # example: "she/her"  
   bio              : "Short biography for the left-hand sidebar"
