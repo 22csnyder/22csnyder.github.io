@@ -30,6 +30,11 @@ source "https://rubygems.org"
 
 gem "github-pages", group: :jekyll_plugins
 
+# This is the default theme for new Jekyll sites. You may change this to anything you like.
+# Supported themes: https://pages.github.com/themes/
+gem "minima"
+
+
 # If you want to use Jekyll native, uncomment the line below.
 # To upgrade, run `bundle update`.
 
