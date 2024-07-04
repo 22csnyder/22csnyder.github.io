@@ -7,9 +7,13 @@
 #brew install rbenv ruby-build
 #==> Installed ruby-3.3.3 to /Users/christophersnyder/.rbenv/versions/3.3.3
 #
-# rbenv global 3.1.2   # set the default Ruby version for this machine
+# rbenv global 3.3.3   # set the default Ruby version for this machine
 # # or:
-# rbenv local 3.1.2    # set the Ruby version for this directory
+# rbenv local 3.3.3   # set the Ruby version for this directory
+# rbenv install -l  # list all available Ruby versions
+
+#bundle install # install the gems listed in the Gemfile
+# install in folder: /Library/Ruby/Gems/3.3.0/gems
 #--------------------------------
 
 
