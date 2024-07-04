@@ -1,7 +1,7 @@
 # Welcome to Jekyll!
 #
 # This config file is meant for settings that affect your entire site, values
-# which you are expected to set up once and rarely need to edit after that.
+# which you are expected to set up once and rarely need to edit after that.a j
 # For technical reasons, this file is *NOT* reloaded automatically when you use
 # `jekyll serve -l -H localhost`. If you change this file, please restart the 
 # server process.
@@ -10,11 +10,11 @@
 locale                   : "en-US"
 title                    : "Your Name / Site Title"
 title_separator          : "-"
-name                     : &name "Your Name"
-description              : &description "personal description"
-url                      : https://academicpages.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+name                     : &name "His Name"
+description              : &description "his description"
+url                      : https://22csnyder.github.io # https://academicpages.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
-repository               : "academicpages/academicpages.github.io"
+repository               : 22csnyder/22csnyder.github.io # "academicpages/academicpages.github.io"
 
 # Site Author - The following control what appear as part of the author content on the side bar.
 #               If a field is blank the icon and link will not appear, otherwise it will be shown.
