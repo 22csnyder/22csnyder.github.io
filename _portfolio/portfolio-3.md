@@ -1,3 +1,4 @@
+---
 title: "2016-2020: Advanced Beginner"
 excerpt: "I integrated better python habbits such as logging and model versioning in my research into A.I., which investigated causal and mechanistic representations of neural networks."
 collection: portfolio
