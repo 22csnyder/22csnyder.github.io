@@ -8,10 +8,10 @@
 
 # Basic Site Settings
 locale                   : "en-US"
-title                    : "Path-Math"
+title                    : "Path Math"
 title_separator          : "-"
-name                     : &name "His Name"
-description              : &description "his description"
+name                     : &name "C Snyder"
+description              : &description "data pathologist"
 url                      : https://22csnyder.github.io # https://academicpages.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : 22csnyder/22csnyder.github.io # "academicpages/academicpages.github.io"
