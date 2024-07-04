@@ -11,7 +11,7 @@ This seems to do the trick
 bundle exec jekyll serve
 ```
 
-acadmicpages.github.io verbiage:
+acadmicpages.github.io verbiage
 ----
 
 
