@@ -23,21 +23,24 @@ author:
   # Biographic information
   # avatar           : "profile.png"
   avatar           : hs_ita2020poster_crop.jpg
-  name             : "Your Sidebar Name"
-  pronouns         : # example: "she/her"  
-  bio              : "Short biography for the left-hand sidebar"
-  location         : "Earth"
-  employer         : "Red Brick University"
+  name             : "Chris Snyder MD PhD"
+  pronouns         : he/him # example: "she/her"  
+  # pronouns         : # example: "she/her"  
+  bio              : "Data Pathologist"
+  # location         : "St. Louis"
+  location         : 
+  employer         : "Dept Pathology and Immunology Washington University School of Medicine"
   uri              : # URL
-  email            : "none@example.org" 
+  email            : cgs2@wustl.edu
 
   # Academic websites
   arxiv            : # URL - Update with the correct link to your profile
-  googlescholar    : "https://scholar.google.com/citations?user=PS_CX0AAAAAJ"
+  # googlescholar    : "https://scholar.google.com/citations?user=PS_CX0AAAAAJ"
+  googlescholar    : "https://scholar.google.com/citations?user=npC2f7wAAAAJ"
   impactstory      : # URL
-  orcid            : "http://orcid.org/yourorcidurl"
+  orcid            : # "http://orcid.org/yourorcidurl"
   semantic         : # URL
-  pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
+  pubmed           : # "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
   researchgate     : # URL
 
   # Repositories and software development
