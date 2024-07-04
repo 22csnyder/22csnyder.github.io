@@ -1,3 +1,18 @@
+#Notes: 
+#I had to download ruby 3.3.3 but it wasn't working globally. 
+#I used rbenv to manage the ruby versions. chruby looks like another good option.
+#which you can read about here:
+#https://github.com/rbenv/rbenv?tab=readme-ov-file
+#
+#brew install rbenv ruby-build
+#==> Installed ruby-3.3.3 to /Users/christophersnyder/.rbenv/versions/3.3.3
+#
+# rbenv global 3.1.2   # set the default Ruby version for this machine
+# # or:
+# rbenv local 3.1.2    # set the Ruby version for this directory
+#--------------------------------
+
+
 source "https://rubygems.org"
 
 # Hello! This is where you manage which Jekyll version is used to run.
