@@ -20,3 +20,5 @@ images/sr_worm-vision_gui_15s.mov
 images/sr_worm-vision_gui_15s.mp4
 #TODO delete these or integrate them
 Website.code-workspace
+_site/index.html
+_site/sitemap.xml
