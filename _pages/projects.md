@@ -2,7 +2,7 @@
 layout: archive
 title: "Projects"
 permalink: /projects/
-author_profile: true
+author_profile: false
 ---
 A more comprehensive list of projects listed chronologically with a brief description of each.
 
