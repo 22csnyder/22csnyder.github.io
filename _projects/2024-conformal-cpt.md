@@ -1,13 +1,20 @@
 ---
-title: 
-collection: projects
-permalink: /projects/breast-cancer-segmentation
+date: 2024-05-01
+time_period: 2024-2025
+published: true
+title: 'Graded Automation:Using Conformal Prediction to Safely Deploy AI Tools in Medical Coding'
+# collection: projects
+
+categories: Medical Coding, Pathology Reports
+disciplines: Pathology, Large Language Models, Conformal Prediction
+
+media:
+ownership:
+client:
+thumbnail: "/2024-conformal-cpt/2024-api-poster.png"
+
+permalink: /projects/2024-conformal-cpt
 excerpt: 'A competition to classify pixels in histopathologic scans of breast tissue, learning from polygon hand-drawn annotations from pathologists.'
-date: 2016-01-01
-# venue: 'Journal 1'
-# slidesurl: 'http://academicpages.github.io/files/slides1.pdf'
-# paperurl: 'http://academicpages.github.io/files/paper1.pdf'
-# citation: 'Your Name, You. (2009). &quot;Paper Title Number 1.&quot; <i>Journal 1</i>. 1(1).'
 ---
 
 "Graded Automation:

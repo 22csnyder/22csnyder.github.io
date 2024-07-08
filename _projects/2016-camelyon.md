@@ -3,25 +3,19 @@ date: 2016-01-01
 published: true #toggles visibility?
 title: "Camelyon Breast Cancer Segmentation Challenge"
 
-categories: photography
+categories: Image Processing
 collection: projects
-disciplines: Photography, Photo manipulation
-media: Book
-ownership: Personal
+disciplines: Pathology, Machine Learning
+media: 
+ownership: 
 client:
-time_period: 2016
-# thumbnail: "/projects/abstract-photography/plist-abstract-photography.jpg"
-
+time_period: 2017
 thumbnail: "/projects/2016-camelyon/fig-camelyon2016_histology_segmentation.png"
-
-# permalink: /projects/breast-cancer-segmentation
-# excerpt: 'A competition to classify pixels in histopathologic scans of breast tissue, learning from polygon hand-drawn annotations from pathologists.'
 description: 'Histopathologic Pixel-Level Segmentation Competition'
 # venue: 'Journal 1'
 # slidesurl: 'http://academicpages.github.io/files/slides1.pdf'
 # paperurl: 'http://academicpages.github.io/files/paper1.pdf'
 # citation: 'Your Name, You. (2009). &quot;Paper Title Number 1.&quot; <i>Journal 1</i>. 1(1).'
-
 
 intro: |
   A competition to classify pixels in histopathologic scans of breast tissue, learning from polygon hand-drawn annotations from pathologists.
@@ -29,10 +23,10 @@ intro: |
 content_layout:
   - section_layout: 1col-10-centered
     images:
-      - caption:
-        description: 'Taken in a nuclear bunker'
-        url: '/projects/abstract-photography/abstract-1.jpg'
-        width:
+      - caption: H&E image (left) with groud truth overlay (blue) and model result (right) after training on the Camelyon16 dataset.
+        description: "Here is something we segmented. We simply trained a pixelwise classifier on tiled sections of the image."
+        url: '/projects/2016-camelyon/fig-camelyon2016_histology_segmentation.png'
+        width: 40
         height:
 
   - section_layout: 2col
@@ -70,10 +64,9 @@ content_layout:
         height:
 ---
 
-The contents above will be part of a list of publications, if the user clicks the link for the publication then the contents of section will be rendered as a full page, allowing you to provide more information about the paper for the reader. When publications are displayed as a single page, the contents of the above "citation" field will automatically be included below this section in a smaller font.
 
 ### More information
-Here is something we segmented. We simply trained a pixelwise classifier on tiled sections of the image.
+"(More information section)"
 
-<img src="/projects/2016-camelyon/fig-camelyon2016_histology_segmentation.png" alt="Breast Cancer Segmentation" style="width:100%">
-"A pair of image and segmentation mask from the Camelyon16 dataset segmented by a neural network. Left: the original H&E image, overlayed by the ground truth annotations (blue). Right: the segmentation mask produced by the neural network."
+<!-- this path works -->
+<img src="/images/projects/2016-camelyon/fig-camelyon2016_histology_segmentation.png" alt="Breast Cancer Segmentation" style="width:50%">
