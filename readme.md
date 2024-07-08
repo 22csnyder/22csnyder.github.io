@@ -1,6 +1,6 @@
-# himatt.com
+# path-math.com
 
-Personal portfolio made with [Jekyll](https://jekyllrb.com/), deployed via [Netlify](https://netlify.com/)
+Personal portfolio made with [Jekyll](https://jekyllrb.com/)
 
 ## Setup
 
