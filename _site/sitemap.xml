@@ -5,7 +5,7 @@
 
   <url>
     <loc>http://localhost:4000/</loc>
-    <lastmod>2024-07-07</lastmod>
+    <lastmod>2024-07-08</lastmod>
     <changefreq>monthly</changefreq>
     <priority>1.0</priority>
   </url>
@@ -66,6 +66,11 @@
   </url>
   
   <url>
+    <loc>http://localhost:4000/projects/2016-camelyon/</loc>
+    <priority>0.7</priority>
+  </url>
+  
+  <url>
     <loc>http://localhost:4000/projects/abstract-photo-experiments/</loc>
     <priority>0.7</priority>
   </url>
@@ -92,6 +97,11 @@
   
   <url>
     <loc>http://localhost:4000/projects/saatchi-gallery/</loc>
+    <priority>0.7</priority>
+  </url>
+  
+  <url>
+    <loc>http://localhost:4000/projects/breast-cancer-segmentation</loc>
     <priority>0.7</priority>
   </url>
   
