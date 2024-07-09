@@ -91,8 +91,18 @@ about_site: |
 <div class="about-wrapper">
   <div class="about">
     <div class="about-intro-image">
-      <img src="{{ page.profile_picture }}" alt="">
+      <img src="{{ page.profile_picture }}" alt="" title="Christopher Snyder circa 2020 presenting his poster at the Information Theory Applications conference">
+      <a href={{ author.email }}>email</a><br>
+      <a href="https://www.linkedin.com/in/{{ author.linkedin }}">LinkedIn</a><br>
+      <a href={{ author.googlescholar }}>googlescholar</a><br>
+      <a href="https://twitter.com/{{ author.twitter }}">X (formerly Twitter)</a><br>
+      <!-- {% if author.twitter %}
+        <a href="https://twitter.com/{{ author.twitter }}">X (formerly Twitter)</a>
+      {% endif %} -->
+      <!-- TODO Error: Liquid syntax error (line 19): Unknown tag 'endif' -->
     </div>
+    <!-- {% if author.linkedin %}<a href="https://www.linkedin.com/in/{{ author.linkedin }}">LinkedIn</a>{% endif %} -->
+    <!-- TODO why doesnt this work? -->
 
     <div class="about-intro-description paragraph-normal">
       {{ page.intro | markdownify }}
