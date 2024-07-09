@@ -11,7 +11,9 @@ media:
 ownership:
 client:
 thumbnail: /projects/2018-causalgan/thumbnail-causalgan.png
+github_repo: mkocaoglu/CausalGAN
 intro: |
+  <a href="https://github.com/ {{ page.github_repo }}"> Github Repo </a><br>
   In this project, we explored whether an artificial neural network could learn structural causal relations, which are functions that explain observations in terms of the underlying mechanisms that generated them. We used a Generative Adversarial Network (GAN) to learn the causal structure of a simple toy dataset. The GAN was trained to generate samples from the dataset, and the discriminator was trained to predict the causal variable from the generated samples. The generator was trained to minimize the discriminator's error, and the discriminator was trained to maximize its error. The GAN was able to learn the causal structure of the dataset, and the generator was able to generate label distributions that were indistinguishable from the real data.
 
 # permalink:

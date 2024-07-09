@@ -1,13 +1,16 @@
 ---
 title: 'C. elegans Neuron Segmentation'
-date: 2014-01-01
+date: 2014-06-01
 time_period: 2013-2015
 published: true
 description: python GUI for 3D neuron segmentation
 categories: Image Processing, GUI
 disciplines: Neuroscience, Image Processing
 thumbnail: /projects/2014-worm-vision/ss-1_worm-vision_thumbnail.png
-intro: In my first PhD project, I developed a GUI that would allow a user to segment 3D images of neurons. The user would draw a line around the neuron, and the program would segment the neuron based on the user's input.
+github_repo: 22csnyder/Worm-Vision
+intro: |
+  <a href="https://github.com/ {{ page.github_repo }}"> Github Repo </a><br>
+  In my first PhD project, I developed a GUI that would allow a user to segment 3D images of neurons. The user would draw a line around the neuron, and the program would segment the neuron based on the user's input.
 content_layout: 
 ---
 
