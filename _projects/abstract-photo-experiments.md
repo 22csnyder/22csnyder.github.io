@@ -1,6 +1,6 @@
 ---
 date: 2010-02-20
-published: true
+published: false
 title: "Abstract Photo Experiments"
 description: "Experimental photographical series"
 categories: photography
