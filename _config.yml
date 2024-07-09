@@ -27,12 +27,13 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://22csnyder.github.io" # the base hostname & protocol for your site
 locale: "en-US"
 timezone: US/Chicago
-year: 2024
+year: 2024 #TODO Jekyl get current year
 start-year: 2012
 sitemap: true
 repository               : 22csnyder/22csnyder.github.io # "academicpages/academicpages.github.io"
 
-author: # TODO I believe this information is not used. I've copied it forward from academic pages because it might oneday have functionality
+# TODO I believe this information is not used. I've copied it forward from academic pages because it might oneday have functionality
+author: 
   # Biographic information
   avatar           : hs_ita2020poster_crop.jpg
   name             : &name "Chris Snyder MD PhD"
@@ -107,8 +108,8 @@ compress_html: # http://jch.penibelst.de/
 navigation:
   - title: Projects
     url: /
-  - title: Fonts
-    url: /fonts
+  # - title: Fonts
+  #   url: /fonts
   - title: About
     url: /about
   - title: Contact
