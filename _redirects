@@ -1,10 +1,14 @@
 ---
 # will generate redirects from redirect_from in page frontmatter
 ---
-https://www.mattgreydesign.com/* {{ site.url }}/:splat 301!
+<!-- TODO was this serving a purpose? -->
+<!-- https://www.mattgreydesign.com/* {{ site.url }}/:splat 301!
 https://mattgreydesign.com/* {{ site.url }}/:splat 301!
 http://www.mattgreydesign.com/* {{ site.url }}/:splat 301!
-http://mattgreydesign.com/* {{ site.url }}/:splat 301!
+http://mattgreydesign.com/* {{ site.url }}/:splat 301! -->
+
+https://path-math.com/* {{ site.url }}/:splat 301!
+https://22csnyder.github.io/* {{ site.url }}/:splat 301!
 /blog/* {{ site.url }}/:splat 301
 
 /portfolio / 301

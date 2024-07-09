@@ -18,27 +18,65 @@ include:
   - _redirects
 
 # Site settings
-title: Matt Grey
-long-title: Matt Grey Design
-email: mattgreydesign@gmail.com
-description: "The selected portfolio of London based digital product designer Matt Grey"
+title: Path Math
+long-title: Christopher Snyder's DataScience Site
+email: 22csnyder@gmail.com
+description: "Selected Words of WashU based Pathology Informatics Enthusiast"
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://himatt.com" # the base hostname & protocol for your site
-timezone: Europe/London
-year: 2021
-start-year: 2010
+# url: "https://himatt.com" # the base hostname & protocol for your site
+url: "https://22csnyder.github.io" # the base hostname & protocol for your site
+locale: "en-US"
+timezone: US/Chicago
+year: 2024
+start-year: 2012
 sitemap: true
+repository               : 22csnyder/22csnyder.github.io # "academicpages/academicpages.github.io"
 
+author: # TODO I believe this information is not used. I've copied it forward from academic pages because it might oneday have functionality
+  # Biographic information
+  avatar           : hs_ita2020poster_crop.jpg
+  name             : &name "Chris Snyder MD PhD"
+  # pronouns         : he/him # example: "she/her"  
+  bio              : &bio "Data Pathologist in Training; 3rd year of CP-Pathology Residency" #,\nData Scientist" #TODO fix
+  # location         : "St. Louis"
+  location         : 
+  # employer         : "Dept Pathology and Immunology Washington University School of Medicine"
+  employer         : "WashU Pathology"
+  uri              : https://www.path-math.com
+  email            : cgs2@wustl.edu
+
+  # Academic websites
+  arxiv            : #arxiv TODO   # URL - Update with the correct link to your profile
+  googlescholar    : "https://scholar.google.com/citations?user=npC2f7wAAAAJ" # email is drpathmath@gmail
+  orcid            : # "http://orcid.org/yourorcidurl"
+  semantic         : # URL
+  pubmed           : # "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
+  researchgate     : # URL
+  linkedin         : christopher-snyder-464939b5 #22csnyder@gmail.com # Username   # https://www.linkedin.com/in/christopher-snyder-464939b5/
+  twitter          : DrChrisSnyder # Username for X / Twitter
+  youtube          : # Username #TODO: Add a link to your YouTube channel
+
+
+# # Social networks
+# social-username:
+#   twitter: "@mattgreydesign"
+#   linkedin: "himatt"
+#   github: "mattgreydesign"
+#   medium: "@mattgreydesign"
+#   pinterest: "mattgreydesign"
+#   instagram: "mattgreydesign"
+#   flickr: "mattgreydesign"
+#   spotify: "mattgreydesign"
 # Social networks
 social-username:
-  twitter: "@mattgreydesign"
-  linkedin: "himatt"
-  github: "mattgreydesign"
-  medium: "@mattgreydesign"
-  pinterest: "mattgreydesign"
-  instagram: "mattgreydesign"
-  flickr: "mattgreydesign"
-  spotify: "mattgreydesign"
+  twitter: "@DrChrisSnyder"
+  linkedin: "christopher-snyder-464939b5"
+  github: "22csnyder"
+  # medium: "@mattgreydesign"
+  # pinterest: "mattgreydesign"
+  # instagram: "mattgreydesign"
+  # flickr: "mattgreydesign"
+  # spotify: "mattgreydesign"
 
 # Content
 image_serve_path: "/images" # <img src="{{ site.image_serve_path }}/projects/img.jpg">
