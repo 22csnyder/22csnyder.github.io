@@ -31,15 +31,21 @@ This site runs on Jekyll, an opensource static site generating platform.
   ```
   bundle exec jekyll serve
   ```
-  
+
 - Go to http://localhost:4000/ in your browser
 
 
 ## General information
 
+### About
+- This site is a personal portfolio site for Christopher Snyder
 - Static website
-- Optimised for efficient [PageSpeed Insights benchmarks](https://developers.google.com/speed/pagespeed/insights/?url=himatt.com) (still more to do in this space)
-- No Jekyll plugin dependancies (previously used Bourbon and Neat, now uses CSS Grid and CSS Custom properties)
+
+### References for Source Code
+- Forked from Matthew Grey's Excellent personal [page](https://himatt.com)
+- Credit originally to the template from [academicpages](https://academicpages.github.io/) on which both are based
+<!-- - Optimised for efficient [PageSpeed Insights benchmarks](https://developers.google.com/speed/pagespeed/insights/?url=himatt.com) (still more to do in this space) -->
+<!-- - No Jekyll plugin dependancies (previously used Bourbon and Neat, now uses CSS Grid and CSS Custom properties) -->
 <!-- - Continuously deployed using Netlify -->
 
 <!-- [![Netlify Status](https://api.netlify.com/api/v1/badges/01ca9c4b-b99d-411f-9003-9fad58ccbcf3/deploy-status)](https://app.netlify.com/sites/mattgrey/deploys) -->
@@ -55,9 +61,5 @@ Under the [GNU General Public License v3.0](LICENSE), you can adapt and use the 
 
 ### Content
 
-© Matthew Grey and himatt.com. Unauthorised use and/or duplication and
-adaptation of this material (all image formats, text and additional media files)
-without express and written permission from this site’s author and/or owner is
-strictly prohibited. Excerpts and links may be used, provided that full and
-clear credit is given to Matthew Grey and/or himatt.com with appropriate and
-specific direction to the original content.
+© Christopher Snyder, path-math.com. Unauthorised use and/or duplication and
+adaptation of this material (all image formats, text and additional media files) without express and written permission from this site’s author and/or owner is strictly prohibited. Excerpts and links may be used, provided that full and clear credit is given to Chris Snyder and/or path-math.com with appropriate and specific direction to the original content.
