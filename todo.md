@@ -15,8 +15,10 @@
 - [ ]  Resume Section
 - [ ]  
 - [ ]  
-- [ ]  
-- [ ]  
+- [ ]  talks section
+- [ ]  tensorflow tutorial
+- [ ]  upcoming pathology data science talk on natural language coding 
+
 
 
 

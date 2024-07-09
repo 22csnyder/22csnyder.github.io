@@ -87,7 +87,7 @@ markdown: kramdown
 
 kramdown:
   smart_quotes: lsquo,rsquo,ldquo,rdquo
-
+#db
 # Sass output
 sass:
   style: compressed # :nested :compact :expanded :compressed
@@ -110,10 +110,12 @@ navigation:
     url: /
   # - title: Fonts
   #   url: /fonts
+  - title: CV
+    url: /files/2024_07_01_Resume_Christopher_G_Snyder.pdf
   - title: About
     url: /about
-  - title: Contact
-    url: /contact
+  # - title: Contact
+  #   url: /contact
 
 permalink: /:title/
 
