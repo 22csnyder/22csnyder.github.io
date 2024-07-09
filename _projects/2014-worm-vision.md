@@ -8,8 +8,9 @@ categories: Image Processing, GUI
 disciplines: Neuroscience, Image Processing
 thumbnail: /projects/2014-worm-vision/ss-1_worm-vision_thumbnail.png
 github_repo: 22csnyder/Worm-Vision
+  # <a href=https://github.com/ {{ page.github_repo }}"> Github Repo </a><br>
 intro: |
-  <a href="https://github.com/ {{ page.github_repo }}"> Github Repo </a><br>
+  <a href="https://github.com/22csnyder/Worm-Vision">Github Repo</a><br>
   In my first PhD project, I developed a GUI that would allow a user to segment 3D images of neurons. The user would draw a line around the neuron, and the program would segment the neuron based on the user's input.
 content_layout: 
 ---

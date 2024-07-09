@@ -30,3 +30,4 @@ content_layout:
 
 ##### Specifications
 [computer parts list](https://pcpartpicker.com/list/Cp2xNN)
+<!-- <a href="https://pcpartpicker.com/list/Cp2xNN" title="Computer Parts List" style="font-size:24px; font-style:italic;">Computer Parts List</a> -->

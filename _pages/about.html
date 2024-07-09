@@ -36,18 +36,6 @@ education:
     period: 2004 - 2008
 
 
-<!-- competitions:
-  - event: Culture Mile Fusion Prize
-    period: 2019 - 2020
-    result: Shortlisted - Team Knolo
-    link: https://www.culturemile.london/fusion-prize-shortlist/knolo
-    # https://www.youtube.com/watch?v=ufmXwUdZJeY&feature=emb_title&ab_channel=CultureMile
-
-  - event: RESI Hackathon
-    period: 2018
-    result: Winners - Team FreeCycle
-    link: https://medium.com/@bemyapp/resi-hackathon-2018-cbf185c29838 -->
-
 skills:
   - coding, version control, unit testing
   - image processing
@@ -57,8 +45,7 @@ skills:
 tools:
   - python, jupyter notebook, 
   - SQL (learning), C++, Matlab
-  - bash scripting, terminal navigation
-  - latex, overleaf
+  - vim, bash scripting, latex
   - git, github pages
   - excel, word, powerpoint
   - visual studio
@@ -77,7 +64,8 @@ about_site: |
 
   - Although the code is opensource under the GNU General Public License v3, all content is Copyrighted. [Read more](https://github.com/22csnyder/22csnyder.github.io/blob/master/LICENSE)
   {:.list--dashed .list--small}
----
+  ---
+  <!-- used to have competitions{ [ {event:,period:, result:, link:, }]} -->
 
 <script type="application/ld+json">
   {
@@ -147,7 +135,7 @@ about_site: |
 
       <div class="about-tools">
         <div class="about-section">
-          <h3 class="about-section-title type-level-2">Tools &amp; technologies</h3>
+          <h3 class="about-section-title type-level-2">Toolsets &amp; technologies</h3>
           <ul class="list--dashed list--small">
             {% for tool in page.tools %}
               <li>{{ tool | markdownify }}</li>
@@ -158,7 +146,7 @@ about_site: |
 
       <div class="about-skills">
         <div class="about-section">
-          <h3 class="about-section-title type-level-2">Skills</h3>
+          <h3 class="about-section-title type-level-2">Skillsets</h3>
           <ul class="list--dashed">
             {% for skill in page.skills %}
               <li>{{ skill }}</li>
