@@ -7,3 +7,9 @@
 
 - [ ] add _talks section to include presentations etc.
 
+- [ ]  fix causalgan page (code and images)
+
+- [ ]  
+- [ ]  
+- [ ]  
+- [ ]  
