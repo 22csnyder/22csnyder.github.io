@@ -4,9 +4,9 @@ time_period: 2020
 published: true
 title: Interpretability of AI Classifiers through Logical Circuits Representation
 description: Introduces a novel representation of AI classifiers as logical circuits through a min-max ReLU layer representation to improve interpretability and explainability.
-collections: posters, talks
-categories: Interpretability 
-disciplines: Machine Learning, AI
+collections: posters, talks, projects
+categories: Interpretability, ReLU, Boolean Logic
+disciplines: Deep Learning, Machine Learning, AI, Tropical Algebra, Information Theory, Learning Theory
 media:
 ownership:
 client:
@@ -61,24 +61,31 @@ content_layout:
         height:
 ---
 
-## Publications
+## Public Works
 <!-- - [arXiv](https://arxiv.org/abs/2002.04424) -->
 <!-- TODO Link to talk page  -->
 
- 
 <div style="display: flex; justify-content: space-between; align-items: center;">
     <div style="flex: 1; margin-right: 20px;">
+        <h2>Poster</h2>
         <a href="/files/projects/2020-deep-logical-circuits/DLC-Poster-ITA2020.pdf" target="_blank">
             <img src="/images/projects/2020-deep-logical-circuits/ita-poster-thumbnail.png" alt="ITA2020 Deep Logical Circuits Poster" style="width: 100%;">
         </a>
     </div>
     <div style="flex: 1;">
+        <h2>Paper</h2>
         <object data="/files/projects/2020-deep-logical-circuits/ITA2020%20DeepLogicalCircuits.pdf" type="application/pdf" style="width: 100%; height: 500px;">
             <p>Your browser does not support PDFs. Please download the PDF to view it: <a href="/files/projects/2020-deep-logical-circuits/ITA2020%20DeepLogicalCircuits.pdf">Download PDF</a>.</p>
         </object>
     </div>
 </div>
 
+<div style="flex: 1;">
+    <h2>Presentation</h2>
+    <object data="/files/projects/2020-deep-logical-circuits/DLC Presentation.pdf" type="application/pdf" style="width: 50%; height: 500px;">
+        This browser does not support PDFs. Please download the PDF to view it: <a href="/projects/2020-deep-logical-circuits/DLC Presentation.pdf">Download PDF</a>.
+    </object>
+</div>
 
 
 #### Philosophy 

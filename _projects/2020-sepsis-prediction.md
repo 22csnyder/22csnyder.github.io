@@ -10,9 +10,9 @@ disciplines: Clinical Informatics, Machine Learning
 media:
 ownership:
 client:
-thumbnail: /projects/2020-sepsis-prediction/ss_poster.png
+thumbnail: /projects/2020-sepsis-prediction/thumbnail-bargraph.png
 intro: |
-  introduction to the project under construction!
+  Collaboration with Jered Ucherek, where we discuss the importance of baseline models in sepsis prediction. The poster was presented at the 2020 AMIA Clinical Informatics Conference. The poster highlights the importance of comparing the performance of machine learning models with that of naive predictors in sepsis prediction. For example, as sepsis is a binary state predicted every day, any classifier should be reported relative to a naive "steady-state" model that predicts each day to have the same label as the day preceeding. The poster concludes with a discussion on the importance of using interpretable models to improve the trustworthiness of the models in sepsis prediction.
 
 # permalink:
 # excerpt:

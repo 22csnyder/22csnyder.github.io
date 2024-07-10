@@ -19,6 +19,8 @@
 - [ ]  tensorflow tutorial
 - [ ]  upcoming pathology data science talk on natural language coding 
 
-
+- [ ] Add Projects
+    - [ ]  2023 seasonal-tsh
+    - [ ]  2023 sickledex-qi
 
 
