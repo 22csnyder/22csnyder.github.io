@@ -6,7 +6,7 @@ title: Interpretability of AI Classifiers through Logical Circuits Representatio
 description: Introduces a novel representation of AI classifiers as logical circuits through a min-max ReLU layer representation to improve interpretability and explainability.
 collections: posters, talks, projects
 categories: Interpretability, ReLU, Boolean Logic
-disciplines: Deep Learning, Machine Learning, AI, Tropical Algebra, Information Theory, Learning Theory
+disciplines: Machine Learning, AI, Tropical Algebra, Information Theory
 media:
 ownership:
 client:
