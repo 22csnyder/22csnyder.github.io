@@ -4,10 +4,9 @@ time_period: Spring 2023
 published: true
 title: Reconsidering Sickle Cell Trait Testing of Red Blood Cell Units
 description: QI Project where we had to request data from cerner (with help), perform data analysis as to usage and utility, and then present recommendations at semester's end.
-collections: Quality Improvement
-categories: Exploratory, Projects,
-disciplines: Large Language Models, AI, python
-
+collections: projects
+categories: Quality Improvement
+disciplines: Clinical Informatics
 thumbnail: /projects/2023-sickledex-qi/thumbnail-3tubes.png
 intro: |
   This is the introduction to the project. Under construction

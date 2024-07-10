@@ -4,7 +4,7 @@ time_period: 2022
 published: true
 title: LLM Short Code Snippets
 description: Short code snippets for LLM, generally that are a proof of concept for a certain feature or function.
-collections: Quality Improvement
+collections:
 categories: Exploratory, Projects 
 disciplines: Large Language Models, AI, python
 

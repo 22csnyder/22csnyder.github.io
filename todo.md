@@ -12,6 +12,8 @@
 
 ## Nice to have
 
+- [ ]  banner icon does not redirect to home page
+
 - [ ]  add _talks section to include presentations etc.
 - [ ]  fix causalgan page (code and images)
 - [ ]  improve afb project page
