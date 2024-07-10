@@ -10,9 +10,14 @@ collections: presentations, projects
 categories: exploratory
 disciplines: Clinical Informatics, Clinical Chemistry, Pathology
 
-thumbnail: /projects/2023-seasonal-tsh/thumbnail-contour.png
+# thumbnail: /projects/2023-seasonal-tsh/thumbnail-contour.png
+thumbnail: /projects/2023-seasonal-tsh/thumbnail-pairplot.png
 intro: |
-  This is the introduction to the project. Under construction
+  Recently several authors have reported on the seasonal variation in TSH levels. This has direct implications for the diagnosis of thyroid disease and is suspected of contributing to an "overdiagnosis" of hypothyroidism in the winter months. 
+  
+  This project is an exploration of the data, some data analysis and visualization, and a deep dive into the literature on this topic, culminating in an hour-long department-wide presentation on the topic.
 ---
 
-Project content goes here.
+This is the content of the project. Under construction
+
+

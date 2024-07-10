@@ -10,7 +10,8 @@ disciplines: Data Analysis, Lab Stewardship
 media:
 ownership:
 client:
-thumbnail: /projects/2022-afb-pji/thumbnail-afb-poster.png
+# thumbnail: /projects/2022-afb-pji/thumbnail-afb-poster.png
+thumbnail: /projects/2022-afb-pji/thumbnail-pieorders.png
 intro: |
   This project was a retrospective data analysis of mycobacterial cultures in osteoarticular specimens. The direct aim was to determine the prevalence of mycobacterial infections in prosthetic joint infections (PJI) and to identify the species of mycobacteria involved. The overall goal was to determine the yield (or utility) at the present rate of utilization. The project was presented as a poster at ASM Microbe 2023.
 
