@@ -53,7 +53,8 @@ author:
   semantic         : # URL
   pubmed           : # "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
   researchgate     : # URL
-  linkedin         : christopher-snyder-464939b5 #22csnyder@gmail.com # Username   # https://www.linkedin.com/in/christopher-snyder-464939b5/
+  linkedin         : christopher-snyder-464939b5 # used
+  #22csnyder@gmail.com # Username   # https://www.linkedin.com/in/christopher-snyder-464939b5/
   twitter          : DrChrisSnyder # Username for X / Twitter
   youtube          : # Username #TODO: Add a link to your YouTube channel
 

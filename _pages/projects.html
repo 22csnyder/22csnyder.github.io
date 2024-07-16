@@ -10,7 +10,12 @@ priority: 1.0
   <p class="projects-intro type-level-1">Chris Snyder, MD PhD is a Machine Learning Trained Pathlogy Resident.</p>
 </div>
 
-<div class="projects-intro-wrapper"><p class="projects-intro type-level-3">Below is some of my latest work.</p></div>
+<div class="projects-intro-wrapper"><p class="projects-intro type-level-3">Below is some of my latest work.
+  <span class="code-legend" style="font-size: 0.75em">
+    <br>(<span class="code-available" style="color: darkred">&#9733;</span> <!-- Unicode character for a star -->
+    indicates code available)
+  </span>
+</p></div>
 
 <div class="projects">
 {% for project in site.projects reversed limit:include.limit %}
@@ -23,7 +28,18 @@ priority: 1.0
             <span>{{ project.description }}</span>
           </p>
         </div>
-        <h3 aria-hidden="true">{{ project.title }}</h3>
+        <h3 aria-hidden="true">{{ project.title }}
+          <!-- Code availability indicator -->
+           <!-- TODO: Switch to indicator of "repo" which is auto-defined -->
+          {% if project.github_repo %}
+          <span class="code-available" style="color: darkred">&#9733;</span> <!-- Unicode character for a star -->
+          {% endif %}
+        </h3>
+          <!-- {% if project.github_repo %}
+          <p class="code-available">Code Available</p>
+        {% else %}
+          <p class="code-not-available">Code Not Available</p>
+        {% endif %} -->
       </a>
     </div>
   </article>

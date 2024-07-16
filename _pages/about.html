@@ -37,25 +37,24 @@ education:
 
 
 skills:
-  - coding, version control, unit testing
-  - image processing
-  - natural language processing
-  - AI learner
-
+  - Coding, Version Control, Unit Testing
+  - Image Processing
+  - Natural Language Processing
+  - AI Code Assistant Utilization
+  
 tools:
-  - python, jupyter notebook, 
+  - Python, Jupyter Notebook, 
   - SQL (learning), C++, Matlab
-  - vim, bash scripting, latex
-  - git, github pages
-  - excel, word, powerpoint
-  - visual studio
-  - Ruby, Jekyll, basic HTML
-  - Flinto, Balsamiq, Invision, Zeplin, Marvel app
+  - Basics of HTML, Dashboarding
+  - Vim, Bash scripting, LaTeX
+  - SSH tunneling, Git basics
+  - MS Excel, Word, Powerpoint
+  - Visual Studio, Code Assistants
 
 
 
 about_site: |
-  - Designed and built from scratch by me using
+  - Designed and built from scratch by me using Ruby, HTML, Markdown,  and 
   [Jekyll](https://jekyllrb.com/).
 
 
@@ -77,17 +76,29 @@ about_site: |
   }
 </script>
 
+<!-- Edit these in _config.yml ! -->
 <div class="about-wrapper">
   <div class="about">
     <div class="about-intro-image">
       <img src="{{ page.profile_picture }}" alt="" title="Christopher Snyder circa 2020 presenting his poster at the Information Theory Applications conference">
-      <a href={{ author.email }}>email</a><br>
-      <a href="https://www.linkedin.com/in/{{ author.linkedin }}">LinkedIn</a><br>
-      <a href={{ author.googlescholar }}>googlescholar</a><br>
-      <a href="https://twitter.com/{{ author.twitter }}">X (formerly Twitter)</a><br>
-      <!-- {% if author.twitter %}
-        <a href="https://twitter.com/{{ author.twitter }}">X (formerly Twitter)</a>
-      {% endif %} -->
+      <!-- <a href={{ author.email }}>email</a><br> -->
+      
+      {% if site.author.linkedin %}
+      <a href="https://www.linkedin.com/in/{{ site.author.linkedin }}" 
+      style="color: green"> 
+        LinkedIn</a><br>
+      {% endif %}
+
+      {% if site.author.googlescholar %}
+      <a href="{{ site.author.googlescholar }}" style="color: green">
+        Google Scholar</a><br>
+      {% endif %}
+
+      {% if site.author.twitter %}
+      <a href="https://twitter.com/{{ site.author.twitter }}" style="color: green"> 
+        X (formerly Twitter)</a><br>
+      {% endif %}
+
       <!-- TODO Error: Liquid syntax error (line 19): Unknown tag 'endif' -->
     </div>
     <!-- {% if author.linkedin %}<a href="https://www.linkedin.com/in/{{ author.linkedin }}">LinkedIn</a>{% endif %} -->
