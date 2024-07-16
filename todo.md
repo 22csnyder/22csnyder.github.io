@@ -1,9 +1,9 @@
 
 # Urgent vs Important
-
-1. RAG demo 
-2. add code to items
-
+1. [ ] RAG demo 
+    a. [ ] structure repo nicely with src, data, tests, and notebooks
+    b. [ ] add README.md (gif with pdf dragging)
+2. Add code to existing items
 
 
 ## Important for if it were submitted tomorrow
