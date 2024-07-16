@@ -6,7 +6,7 @@ title: 'Conformal Prediction for the Safe Deployment of AI Tools in Medical Codi
 description: |
   This project explores combining the flexibility of Large Language Models (LLMs) with the statistical rigor of Conformal Prediction, which is used to create a statistical model of the per-sample uncertainty in the LLM's prediction.
 
-collections: projects, llms, posters, talks
+collections: projects, llms, posters, talks, awards
 categories: Conformal Prediction, Large Language Models
 disciplines: Pathology, AI, Medical Coding
 
@@ -42,4 +42,14 @@ intro: |
 <a href="/files/projects/2024-conformal-cpt/aclps/2024-aclps-slides.pdf">
     <embed src="{{ site.baseurl }}/files/projects/2024-conformal-cpt/aclps/2024-aclps-slides.pdf" type='application/pdf' style="width: 50%; height: 500px;">
 </a>
+
+
+
+## ACLPS 2024 Young Investigator Award
+We are proud to announce that our work on "Conformal Prediction and Large Language Models for Medical Coding" has been recognized with the ACLPS 2024 Young Investigator Award. This award is a testament to the innovative approach and potential impact of our research in the field of medical coding and AI.
+
+
+<img src="{{ site.baseurl }}/images/projects/2024-conformal-cpt/aclps/thumbnail_Award_Paul-E-Strandjord.png" 
+alt="ACLPS 2024 Young Investigator Award" style="width: 50%;">
+
 

@@ -26,10 +26,16 @@ title-class: project
   }
 </script>
 
-<div class="project-wrapper">
+<!-- TODO: Understand why this doesn't work-- the links have <p> </p>
+{% if page.github_repo %}
+  <a href="https://github.com/{{ page.github_repo | markdownify }}"> Github Repo </a><br>
+{% endif %} -->
 
+<div class="project-wrapper">
   <div class="project-info">
-    <section class="project-intro paragraph-normal">{{ page.intro | markdownify }}</section>
+    <section class="project-intro paragraph-normal">
+      {{ page.intro | markdownify }}
+    </section>
     <aside class="project-details">
       <div class="project-detail-wrapper">
 
@@ -51,14 +57,15 @@ title-class: project
           </div>
           {% endif %}
 
-        {% if page.website.url %}
-        <div class="project-detail project-detail-12">
-          <a href="{{ page.website.url }}" class="button-secondary">{{ page.website.button_text }}</a>
-        </div>
-        {% endif %}
+          {% if page.website.url %}
+          <div class="project-detail project-detail-12">
+            <a href="{{ page.website.url }}" class="button-secondary">{{ page.website.button_text }}</a>
+          </div>
+          {% endif %}
       </div>
-    </aside>
+      </aside>
   </div>
+</div>
 
   <section>
   {% for entry in page.content_layout %}
