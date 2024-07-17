@@ -30,7 +30,6 @@ intro: |
 content_layout:
   - section_layout: text
     content: |
-      # App 
       <div style="text-align: center;">
       <p> <h2>Demo PDF Chat</h2> </p>
       <video controls loop autoplay src="/files/projects/2023-ragchat/sr-argatroban.mp4" style="width: 50%;"></video>
@@ -50,17 +49,25 @@ content_layout:
       - caption: <span style="color:#228B22;">Application-- Transforming documentation into educational study materials directly</span>
         description: "Q: Which Anticoagulants Have the Shortest Half-Life ?"
         url: /projects/2023-ragchat/ss-argatroban.png
+  - section_layout: 1col
+    images: 
+      - caption: <h2> The AI responses are essentially correct. *Note:* In some experiments the AI differentiates between  *IV* dabigatran and *oral* dabigatran which is pertinent!, explaining that the oral form has a half-life of 12-17 hours.</h2>
+        description: an explanation of the AI response
+        url: /projects/2023-ragchat/ss-bar.png
 
-  - section_layout: text
-    content: |
-      Explanation: The AI responses are essentially correct. *Note:* In some experiments the AI differentiates between  *IV* dabigatran and *oral* dabigatran which is pertinent!, explaining that the oral form has a half-life of 12-17 hours.
+  - section_layout: 1col
+    images: 
+      - caption:
+        description:
+        url: /projects/2023-ragchat/ss-bar.png
+
 ---
 
 
 <!-- #### Saved Q&A Text Examples -->
 
 <div style="text-align: center;">
-<p> <h3>Additional Q&A Text Examples</h3> </p>
+<p> <h2>Additional Q&A Text Examples</h2> </p>
 </div>
 More historical examples of interest can be seen (with explainations of the questions and answers) at github repo above at [/_results/sample_qa.md](https://github.com/22csnyder/ragchat/blob/main/_results/_files/sample-qa.md)
 
