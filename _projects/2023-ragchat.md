@@ -32,7 +32,7 @@ content_layout:
     content: |
       # App 
       <div style="text-align: center;">
-      <p> <h2>Interaction</h2> </p>
+      <p> <h2>Demo PDF Chat</h2> </p>
       <video controls loop autoplay src="/files/projects/2023-ragchat/sr-argatroban.mp4" style="width: 50%;"></video>
       </div>
   - section_layout: text
@@ -55,17 +55,6 @@ content_layout:
     content: |
       Explanation: The AI responses are essentially correct. *Note:* In some experiments the AI differentiates between  *IV* dabigatran and *oral* dabigatran which is pertinent!, explaining that the oral form has a half-life of 12-17 hours.
 ---
-## App Interaction
-
-          <div style="text-align: center;">
-          <p> <h2>Q&A Examples:</h2> </p>
-          </div>
-<!-- ![alt text](../files/projects/2023-ragchat/ss-smear-contacts.png) -->
-<video controls loop autoplay src="/files/projects/2023-ragchat/sr-smear-contacts.mp4" title="Q: Who You Going to Call ?" style="width: 50%;"></video>
-<video controls loop autoplay src="/files/projects/2023-ragchat/sr-argatroban.mp4" title="Q: Which Anticoagulants Have the Shortest Half-Life ?" style="width: 50%;"></video>
-
-
-
 
 
 <!-- #### Saved Q&A Text Examples -->
