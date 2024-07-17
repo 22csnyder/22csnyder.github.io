@@ -32,7 +32,6 @@ content_layout:
   #       url:
   #       width:
   #       height:
-
 ---
 
 <!-- {% if page.github_repo %}

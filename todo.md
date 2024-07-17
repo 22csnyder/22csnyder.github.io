@@ -10,9 +10,12 @@
 - [x] add young investigator award
 - [ ] add additional code base references
     - [x] fix causalgan code page link
-- [ ] llm gists
-    - [ ] RAG demo for pathology documents
+    - [x] RAG demo for pathology documents
+    - [ ]  migrate code from gitlab to github
+
 - [x] fix linkedin link
+
+- [ ]  upcoming pathology data science talk on natural language coding 
 
 ## Important Eventually (not urgent)
 - [ ] revise chatgpt text
@@ -25,11 +28,9 @@
     - [x]  2023 seasonal-tsh
     - [x]  2023 sickledex-qi
 - [ ]  add python repos to more projects 
-    - [ ]  migrate code from gitlab to github
 - [x]  Resume Section (collection)
 - [ ]  talks section  (collection)
 - [ ]  tensorflow tutorial
-- [ ]  upcoming pathology data science talk on natural language coding 
 - [ ] ctrl+f for "todo" in all files
 #### understanding
 - [ ] what governs how markdownify styles?  why doesn't {{ page.github_repo | markdownify }} work in the causalgan page?
