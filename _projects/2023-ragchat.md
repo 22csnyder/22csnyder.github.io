@@ -71,7 +71,7 @@ content_layout:
 </div>
 More historical examples of interest can be seen (with explainations of the questions and answers) at github repo above at [/_results/sample_qa.md](https://github.com/22csnyder/ragchat/blob/main/_results/_files/sample-qa.md)
 
-
+---
 # Background 
 
 While foundation Large Language Models (LLMs) excel at a broad range of non-technical domain tasks, they often struggle in deployment in niche (e.g. institution specific) situations as out-of-dataset challenges inevitably arise. The first solution proposed was to "fine-tune" the LLM model: to do the same as in the preparation of the foundation model, but with training data supplemented strategically with specialized task examples. 
