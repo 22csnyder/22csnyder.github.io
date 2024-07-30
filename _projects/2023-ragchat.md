@@ -83,3 +83,4 @@ When entire corpora are of relevance in general, one hopes that each individual 
 By this writing in 2024, chat.openai allows one to upload a pdf (e.g. a resume) and ask questions about it, though no such feature existed at time of the original project summarized here. 
 
 This is a working demo of the chat with a pdf feature. It's purpose was to demonstrate the explore and demonstrate the utility and practicallity of RAG as a novel tool for context-aware language modeling.
+

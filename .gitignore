@@ -17,6 +17,6 @@ package-lock.json
 .DS_Store
 
 #TODO delete these or integrate them
-Website.code-workspace
+website.code-workspace
 _site/index.html
 _site/sitemap.xml

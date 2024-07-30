@@ -44,5 +44,5 @@ content_layout:
 
 ## Poster
 <a href="/files/projects/2022-afb-pji/NTM Osteo Microbe 2023_print.pdf">
- <img src="/images/projects/2022-afb-pji/thumbnail-afb-poster.png" alt="AFB Prosthetic Joint Infections Poster" style="width:60%;"> 
+ <img src="/images/projects/2022-afb-pji/thumbnail-afb-poster.png" alt="AFB Prosthetic Joint Infections Poster" style="width:60%; border: 2px solid green;"> 
 </a>
