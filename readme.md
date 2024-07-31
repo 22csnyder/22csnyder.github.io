@@ -43,7 +43,7 @@ This site runs on Jekyll, an opensource static site generating platform.
 
 ### References for Source Code
 - Forked from Matthew Grey's Excellent personal [page](https://himatt.com)
-- Credit originally to the template from [academicpages](https://academicpages.github.io/) on which both are based
+- That project was forked from [academicpages](https://academicpages.github.io/) on which both are based
 <!-- - Optimised for efficient [PageSpeed Insights benchmarks](https://developers.google.com/speed/pagespeed/insights/?url=himatt.com) (still more to do in this space) -->
 <!-- - No Jekyll plugin dependancies (previously used Bourbon and Neat, now uses CSS Grid and CSS Custom properties) -->
 <!-- - Continuously deployed using Netlify -->
@@ -57,6 +57,22 @@ This site runs on Jekyll, an opensource static site generating platform.
 Under the [GNU General Public License v3.0](LICENSE), you can adapt and use the source code of this site (but not it's content) for personal and commercial use, so long as you retain the same license for your own project. See a quick breakdown of what you can and cant do [here](https://tldrlegal.com/license/gnu-lesser-general-public-license-v3-(lgpl-3))
 
 [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg?style=flat-square)](https://www.gnu.org/licenses/gpl-3.0)
+
+
+## Troubleshooting
+
+I was getting a weird bundle error on revisiting my project after awhile. The following worked for me:
+```
+rm -rf .jekyll-cache/
+rm Gemfile.lock
+gem install jekyll bundler
+bundle install #may take a while
+```
+And finally serve the site:
+```
+bundle exec jekyll serve
+```
+
 
 
 ### Content

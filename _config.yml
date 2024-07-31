@@ -8,7 +8,7 @@
 # plugins:
 
 exclude:
-  - readme.md
+  - README.md
   - Gemfile
   - Gemfile.lock
   - LICENSE
