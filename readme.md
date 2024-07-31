@@ -80,6 +80,10 @@ bundle exec jekyll serve
 brew update
 brew upgrade rbenv ruby-build
 rbenv install 3.2.2 
+rbenv local 3.2.2
+
+gem install bundler jekyll
+bundle install
 ```
 
 

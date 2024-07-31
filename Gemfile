@@ -9,9 +9,13 @@ source "https://rubygems.org"
 # This will help ensure the proper Jekyll version is running.
 # Happy Jekylling!
 source 'https://rubygems.org' do
-  gem "ruby", "~> 3.2.2"
-  gem "jekyll", "4.2.2"
+  gem "jekyll", "4.3.3"
+  gem "ruby"
 end
+#updated jekyll version fixed err 
+#https://stackoverflow.com/questions/77851863/bundle-exec-jekyll-serve-not-working-locally
+# gem "jekyll", "4.2.2"#original
+# gem "ruby", "~> 3.2.2"
 
 # If you want to use GitHub Pages, remove the "gem "jekyll"" above and
 # uncomment the line below. To upgrade, run `bundle update github-pages`.
