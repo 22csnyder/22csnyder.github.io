@@ -74,8 +74,38 @@ bundle exec jekyll serve
 ```
 
 
+### further
+
+```
+brew update
+brew upgrade rbenv ruby-build
+rbenv install 3.2.2 
+```
+
 
 ### Content
 
 © Christopher Snyder, path-math.com. Unauthorised use and/or duplication and
 adaptation of this material (all image formats, text and additional media files) without express and written permission from this site’s author and/or owner is strictly prohibited. Excerpts and links may be used, provided that full and clear credit is given to Chris Snyder and/or path-math.com with appropriate and specific direction to the original content.
+
+
+<!-- 
+## Ruby
+### Notes on Ruby Environment Management
+
+#Notes: 
+#I had to download ruby 3.3.3 but it wasn't working globally. 
+#I used rbenv to manage the ruby versions. chruby looks like another good option.
+
+#
+#brew install rbenv ruby-build
+#==> Installed ruby-3.3.3 to /Users/christophersnyder/.rbenv/versions/3.3.3
+#
+# rbenv global 3.3.3   # set the default Ruby version for this machine
+# # or:
+# rbenv local 3.3.3   # set the Ruby version for this directory
+# rbenv install -l  # list all available Ruby versions
+
+#bundle install # install the gems listed in the Gemfile
+# install in folder: /Library/Ruby/Gems/3.3.0/gems
+#-------------------------------- -->
