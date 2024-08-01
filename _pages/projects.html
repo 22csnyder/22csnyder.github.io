@@ -11,11 +11,14 @@ priority: 1.0
 </div>
 
 <div class="projects-intro-wrapper"><p class="projects-intro type-level-3">Below is some of my latest work.
-  <span class="code-legend" style="font-size: 0.75em">
-    <br>(<span class="code-available" style="color: darkred">&#9733;</span> <!-- Unicode character for a star -->
-    indicates code available)
+  <span class="code-legend" style="font-size: 0.64em;">
+    <br>legend &Tab; <span class="code-available" style="color: darkred">&#9733;</span> <!-- Unicode character for a star -->
+     code available
+    <span class="demo-available" style="color: darkgreen">&#9733;</span> <!-- Unicode character for a star -->
+     demo available
   </span>
 </p></div>
+
 
 <div class="projects">
 {% for project in site.projects reversed limit:include.limit %}
@@ -33,6 +36,10 @@ priority: 1.0
            <!-- TODO: Switch to indicator of "repo" which is auto-defined -->
           {% if project.github_repo %}
           <span class="code-available" style="color: darkred">&#9733;</span> <!-- Unicode character for a star -->
+          {% endif %}
+          <!-- Demo availability indicator -->
+          {% if project.demo %}
+          <span class="demo-available" style="color: darkgreen">&#9733;</span> <!-- Unicode character for a star -->
           {% endif %}
         </h3>
           <!-- {% if project.github_repo %}
