@@ -1,3 +1,5 @@
+@use 'sass:math';
+
 @mixin visually-hidden {
   border: 0;
   clip: rect(0 0 0 0);
@@ -10,7 +12,7 @@
 }
 
 @function rem($size) {
-  @return $size / 16px * 1rem;
+  @return math.div($size, 16px) * 1rem;
 }
 
 @mixin element-padding {
