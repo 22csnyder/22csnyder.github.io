@@ -61,14 +61,18 @@ Under the [GNU General Public License v3.0](LICENSE), you can adapt and use the 
 
 ## Troubleshooting
 
-I was getting a weird bundle error on revisiting my project after awhile. The following worked for me:
+<!-- I was getting a weird bundle error on revisiting my project after awhile.  -->
+The following worked for me:
+
 ```
 rm -rf .jekyll-cache/
 rm Gemfile.lock
 gem install jekyll bundler
 bundle install #may take a while
 ```
+
 And finally serve the site:
+
 ```
 bundle exec jekyll serve
 ```
