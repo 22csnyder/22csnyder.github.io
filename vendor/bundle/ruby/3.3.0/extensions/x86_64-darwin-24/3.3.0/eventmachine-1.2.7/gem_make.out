@@ -1,0 +1,19 @@
+current directory: /Users/christophersnyder/Projects/22csnyder.github.io/vendor/bundle/ruby/3.3.0/gems/eventmachine-1.2.7/ext/fastfilereader
+/Users/christophersnyder/.rbenv/versions/3.3.3/bin/ruby extconf.rb
+creating Makefile
+
+current directory: /Users/christophersnyder/Projects/22csnyder.github.io/vendor/bundle/ruby/3.3.0/gems/eventmachine-1.2.7/ext/fastfilereader
+make DESTDIR\= sitearchdir\=./.gem.20250929-55782-lncl5o sitelibdir\=./.gem.20250929-55782-lncl5o clean
+
+current directory: /Users/christophersnyder/Projects/22csnyder.github.io/vendor/bundle/ruby/3.3.0/gems/eventmachine-1.2.7/ext/fastfilereader
+make DESTDIR\= sitearchdir\=./.gem.20250929-55782-lncl5o sitelibdir\=./.gem.20250929-55782-lncl5o
+compiling mapper.cpp
+compiling rubymain.cpp
+linking shared-object fastfilereaderext.bundle
+
+current directory: /Users/christophersnyder/Projects/22csnyder.github.io/vendor/bundle/ruby/3.3.0/gems/eventmachine-1.2.7/ext/fastfilereader
+make DESTDIR\= sitearchdir\=./.gem.20250929-55782-lncl5o sitelibdir\=./.gem.20250929-55782-lncl5o install
+/usr/bin/install -c -m 0755 fastfilereaderext.bundle ./.gem.20250929-55782-lncl5o
+
+current directory: /Users/christophersnyder/Projects/22csnyder.github.io/vendor/bundle/ruby/3.3.0/gems/eventmachine-1.2.7/ext/fastfilereader
+make DESTDIR\= sitearchdir\=./.gem.20250929-55782-lncl5o sitelibdir\=./.gem.20250929-55782-lncl5o clean

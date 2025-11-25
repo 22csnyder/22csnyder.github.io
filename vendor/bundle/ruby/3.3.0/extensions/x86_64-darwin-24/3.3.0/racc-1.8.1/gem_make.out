@@ -1,0 +1,18 @@
+current directory: /Users/christophersnyder/Projects/22csnyder.github.io/vendor/bundle/ruby/3.3.0/gems/racc-1.8.1/ext/racc/cparse
+/Users/christophersnyder/.rbenv/versions/3.3.3/bin/ruby extconf.rb
+creating Makefile
+
+current directory: /Users/christophersnyder/Projects/22csnyder.github.io/vendor/bundle/ruby/3.3.0/gems/racc-1.8.1/ext/racc/cparse
+make DESTDIR\= sitearchdir\=./.gem.20250929-55782-s4jwqa sitelibdir\=./.gem.20250929-55782-s4jwqa clean
+
+current directory: /Users/christophersnyder/Projects/22csnyder.github.io/vendor/bundle/ruby/3.3.0/gems/racc-1.8.1/ext/racc/cparse
+make DESTDIR\= sitearchdir\=./.gem.20250929-55782-s4jwqa sitelibdir\=./.gem.20250929-55782-s4jwqa
+compiling cparse.c
+linking shared-object racc/cparse.bundle
+
+current directory: /Users/christophersnyder/Projects/22csnyder.github.io/vendor/bundle/ruby/3.3.0/gems/racc-1.8.1/ext/racc/cparse
+make DESTDIR\= sitearchdir\=./.gem.20250929-55782-s4jwqa sitelibdir\=./.gem.20250929-55782-s4jwqa install
+/usr/bin/install -c -m 0755 cparse.bundle ./.gem.20250929-55782-s4jwqa/racc
+
+current directory: /Users/christophersnyder/Projects/22csnyder.github.io/vendor/bundle/ruby/3.3.0/gems/racc-1.8.1/ext/racc/cparse
+make DESTDIR\= sitearchdir\=./.gem.20250929-55782-s4jwqa sitelibdir\=./.gem.20250929-55782-s4jwqa clean

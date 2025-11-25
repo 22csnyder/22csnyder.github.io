@@ -60,26 +60,13 @@ author:
   youtube          : # Username #TODO: Add a link to your YouTube channel
 
 
-# # Social networks
-# social-username:
-#   twitter: "@mattgreydesign"
-#   linkedin: "himatt"
-#   github: "mattgreydesign"
-#   medium: "@mattgreydesign"
-#   pinterest: "mattgreydesign"
-#   instagram: "mattgreydesign"
-#   flickr: "mattgreydesign"
-#   spotify: "mattgreydesign"
+
 # Social networks
 social-username:
   twitter: "@DrChrisSnyder"
   linkedin: "christopher-snyder-464939b5"
   github: "22csnyder"
-  # medium: "@mattgreydesign"
-  # pinterest: "mattgreydesign"
-  # instagram: "mattgreydesign"
-  # flickr: "mattgreydesign"
-  # spotify: "mattgreydesign"
+
 
 # Content
 image_serve_path: "/images" # <img src="{{ site.image_serve_path }}/projects/img.jpg">
@@ -113,7 +100,9 @@ navigation:
   # - title: Fonts
   #   url: /fonts
   - title: CV
-    url: /files/2024_07_01_Resume_Christopher_G_Snyder.pdf
+    url: /files/Fairly_Recent_Resume_Christopher_G_Snyder.pdf
+  #   url: /files/2024_07_01_Resume_Christopher_G_Snyder.pdf
+  #   url: /files/2025_11_01_Resume_Christopher_G_Snyder.pdf
   - title: About
     url: /about
   # - title: Contact
