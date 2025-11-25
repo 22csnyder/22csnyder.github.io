@@ -6,33 +6,66 @@ Personal portfolio made with [Jekyll](https://jekyllrb.com/)
 
 This site runs on Jekyll, an opensource static site generating platform.
 
-- Clone or download a zip of this project to your computer and navigate to the
-  project directory in your terminal
-  
-- Make sure Ruby is installed, to check if it is, run:
-  ```
-  ruby -v
-  ``` 
-  For more information about installing Ruby, refer to the [Ruby installation ](https://www.ruby-lang.org/en/documentation/installation/).
+### Quick Setup (Recommended)
 
-- Install the Jekyll and bundler [gems](https://jekyllrb.com/docs/ruby-101/#gems) from the commandline:
-  ```
-  gem install jekyll bundler
-  ```
-  For more information about installing Jekyll, refer to the [Jekyll quickstart guide](https://jekyllrb.com/docs/quickstart/)
+**For a new computer or fresh setup, run:**
+```bash
+make setup
+```
 
+This will:
+- Install rbenv if needed
+- Install Ruby 3.3.3 if needed
+- Set up the correct Ruby environment
+- Install all dependencies
 
-- Install Gem dependencies for the project by running:
-  ```
-  bundle install
-  ```
-  
-- To run the server in your local environment run:
-  ```
-  bundle exec jekyll serve
-  ```
+**Then start the server:**
+```bash
+make serve
+```
 
-- Go to http://localhost:4000/ in your browser
+Visit http://localhost:4000/ in your browser.
+
+### Manual Setup
+
+If you prefer to set up manually:
+
+1. Clone or download this project and navigate to the project directory
+
+2. Install rbenv (if not already installed):
+   ```bash
+   brew install rbenv ruby-build
+   ```
+   Then add to your shell config (`~/.zshrc` or `~/.bashrc`):
+   ```bash
+   eval "$(rbenv init - zsh)"  # or bash if using bash
+   ```
+
+3. Install Ruby 3.3.3:
+   ```bash
+   rbenv install 3.3.3
+   rbenv local 3.3.3
+   ```
+
+4. Install dependencies:
+   ```bash
+   bundle install
+   ```
+
+5. Start the server:
+   ```bash
+   bundle exec jekyll serve
+   ```
+
+### Available Make Commands
+
+- `make setup` - Run the automated setup script
+- `make install` - Install dependencies (requires rbenv setup)
+- `make serve` - Start the Jekyll development server
+- `make build` - Build the site without serving
+- `make clean` - Clean generated files
+- `make check-ruby` - Verify the correct Ruby version is being used
+- `make help` - Show all available commands
 
 
 ## General information
@@ -67,7 +100,8 @@ The following worked for me:
 ```
 rm -rf .jekyll-cache/
 rm Gemfile.lock
-gem install jekyll bundler
+eval "$(rbenv init - zsh)"  # or bash if using bash
+rbenv local 3.3.3
 bundle install #may take a while
 ```
 
@@ -83,11 +117,11 @@ bundle exec jekyll serve
 ```
 brew update
 brew upgrade rbenv ruby-build
-rbenv install 3.2.2 
-rbenv local 3.2.2
+rbenv install 3.3.3 
+rbenv local 3.3.3
+eval "$(rbenv init - zsh)"  # or bash if using bash
 
-gem install bundler jekyll
-bundle install
+bundle install  # This installs bundler and jekyll automatically
 ```
 
 

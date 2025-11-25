@@ -12,6 +12,7 @@ exclude:
   - Gemfile
   - Gemfile.lock
   - LICENSE
+  - vendor
 
 include:
   - _pages
@@ -21,7 +22,7 @@ include:
 title: Path Math
 long-title: Christopher Snyder's DataScience Site
 email: 22csnyder@gmail.com
-description: "Selected Words of WashU based Pathology Informatics Enthusiast"
+description: "Selected Words of UW based Pathology Informatics Enthusiast"
 baseurl: "" # the subpath of your site, e.g. /blog
 # url: "https://himatt.com" # the base hostname & protocol for your site
 url: "https://22csnyder.github.io" # the base hostname & protocol for your site
@@ -38,11 +39,11 @@ author:
   avatar           : hs_ita2020poster_crop.jpg
   name             : &name "Chris Snyder MD PhD"
   # pronouns         : he/him # example: "she/her"  
-  bio              : &bio "Data Pathologist in Training; 3rd year of CP-Pathology Residency" #,\nData Scientist" #TODO fix
+  bio              : &bio "Data Pathologist in Training; CP-Pathology Fellow" #,\nData Scientist" #TODO fix
   # location         : "St. Louis"
   location         : 
   # employer         : "Dept Pathology and Immunology Washington University School of Medicine"
-  employer         : "WashU Pathology"
+  employer         : "UW Pathology"
   uri              : https://www.path-math.com
   email            : cgs2@wustl.edu
 
